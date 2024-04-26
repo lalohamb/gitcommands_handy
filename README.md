@@ -75,3 +75,43 @@ Command I used to configure git on new project.
   384  clear
   385  npx hardhat test
   386  history
+
+
+lalo@lalo-OptiPlex-9010ai:~/Mentorship/WK7_Amm Backend Module$ git clone https://github.com/dappuniversity/react_hardhat_template.git
+Cloning into 'react_hardhat_template'...
+remote: Enumerating objects: 37, done.
+remote: Counting objects: 100% (37/37), done.
+remote: Compressing objects: 100% (30/30), done.
+remote: Total 37 (delta 3), reused 37 (delta 3), pack-reused 0
+Receiving objects: 100% (37/37), 470.70 KiB | 1.99 MiB/s, done.
+Resolving deltas: 100% (3/3), done.
+
+lalo@lalo-OptiPlex-9010ai:~/Mentorship/WK7_Amm Backend Module$ cd react_hardhat_template
+
+lalo@lalo-OptiPlex-9010ai:~/Mentorship/WK7_Amm Backend Module/react_hardhat_template$ git remote -v
+origin	https://github.com/dappuniversity/react_hardhat_template.git (fetch)
+origin	https://github.com/dappuniversity/react_hardhat_template.git (push)
+
+lalo@lalo-OptiPlex-9010ai:~/Mentorship/WK7_Amm Backend Module/react_hardhat_template$ git remote remove origin
+
+lalo@lalo-OptiPlex-9010ai:~/Mentorship/WK7_Amm Backend Module/react_hardhat_template$ git remote -v
+
+lalo@lalo-OptiPlex-9010ai:~/Mentorship/WK7_Amm Backend Module/react_hardhat_template$ git remote add origin 
+usage: git remote add [<options>] <name> <url>
+
+    -f, --fetch           fetch the remote branches
+    --tags                import all tags and associated objects when fetching
+                          or do not fetch any tag at all (--no-tags)
+    -t, --track <branch>  branch(es) to track
+    -m, --master <branch>
+                          master branch
+    --mirror[=(push|fetch)]
+                          set up remote as a mirror to push to or fetch from
+
+lalo@lalo-OptiPlex-9010ai:~/Mentorship/WK7_Amm Backend Module/react_hardhat_template$ git remote add origin https://github.com/lalohamb/amm.git
+
+lalo@lalo-OptiPlex-9010ai:~/Mentorship/WK7_Amm Backend Module/react_hardhat_template$ git remote -v
+origin	https://github.com/lalohamb/amm.git (fetch)
+origin	https://github.com/lalohamb/amm.git (push)
+
+
